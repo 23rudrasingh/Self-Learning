@@ -2,7 +2,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 
 
-/********************** this is Category class which will hold item list *********************/
+/********************** This is Category class which will hold item list *********************/
 
 class Category{
 	//String categoryName;
