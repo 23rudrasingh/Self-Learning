@@ -1,0 +1,51 @@
+1. Main()
+2.welcome()
+3. login()
+4. User();
+	1.	FileHandler();
+	2.	admin = fh.adminUsers(0);
+	3.	user = fh.adminUsers(1);
+5. authentication(){User class methode}
+	1. signUp()
+6. home(ArrayList<String> user)
+	1. Menu()
+		1. FileHandler();
+		2. veg = fh.reader(0);
+		3. nonVeg = fh.reader(1);
+		4. reader();
+			1. veg.iterator();
+			2. Category obj = new Category();
+			3. obj.item = fh.foodreader(name);
+			4. foodVeg.put(name,obj);
+			5. nonVeg.iterator();
+			6. Category obj = new Category();
+			7. name = itr.next();
+			8. obj.item = fh.foodreader(name);
+	2. menu.welcome(String userName)
+	3. menu.admin()
+		1. adminMenu();
+		2. :show();
+		2. :newEntry();
+			1. foodMenu();
+			2. addCategory(opt);
+				1. : addExisting(type);
+					1. selectionMenu();
+					2. verifyExistance(type,category);
+						
+				1. : newCategory(type);
+		2. :viewUser();
+		2. :remove();
+		2. :update();
+	4. menu.customer()
+6. LogIn Failed //retry
+
+7. update()
+	1. FileHandler();
+	2. menu.getVeg().iterator();
+	3. save(itr,fh);
+	4. fh.writer(fh.menu[0],content);
+	5. menu.getNonVeg().iterator();
+	6. save(itr,fh)
+	7. fh.writer(fh.menu[0],content);
+	8.	fh.writer(fh.user[0],ob.adminUseres());
+	9.	fh.writer(fh.user[1],ob.useres());
